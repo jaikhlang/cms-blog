@@ -1,4 +1,4 @@
-<header class="text-white bg-black shadow">
+<header class="text-black bg-white shadow">
   <x-container>
     <nav class="flex items-center justify-between py-4">
       <a
@@ -10,29 +10,8 @@
         <x-logo />
       </a>
 
-      <div>
-        <a
-          wire:navigate
-          href="/"
-          class="flex items-center flex-shrink-0 mr-auto"
-          aria-label="{{ config('app.name') }}"
-        >
-          Home
-        </a>
-      </div>
-      <div>
-        <a
-          wire:navigate
-          href="/"
-          class="flex items-center flex-shrink-0 mr-auto ml-2"
-          aria-label="{{ config('app.name') }}"
-        >
-          Recruitments
-        </a>
 
-      </div>
-
-      <div>
+      <!--div>
         <x-button
           class="ml-2"
           :icon="Auth::check() ? 'heroicon-o-cog' : 'heroicon-s-user'"
@@ -41,7 +20,7 @@
         >
           {{ Auth::check() ? 'Manage' : 'Login' }}
         </x-button>
-      </div>
+      </div-->
     </nav>
   </x-container>
 </header>
