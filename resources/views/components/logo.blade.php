@@ -1,4 +1,4 @@
 <div class="text-xl">
-  <img src="{{ asset('JXN.png') }}" alt="">
+  <img src="{{ asset('jxn-logo.png') }}" alt="Employment News">
   <!-- Filament <span class="text-primary-500 font-medium">Starter</span> -->
 </div>
